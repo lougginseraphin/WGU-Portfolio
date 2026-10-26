@@ -1,0 +1,39 @@
+
+* {
+   box-sizing: border-box;
+}
+
+body {
+    font-family:Arial, sans-serif;
+    background-color: #f7f9fc;
+    color: #222;
+    line-height: 1.6;
+}
+
+table {
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+nav a {
+    margin-right: 12px;
+}
+nav a:hover {
+    color: #005a9c;
+}
+ul {
+    list-style-type: square;
+}
+em {
+    font-style: italic;
+}
+.portfolio-image {
+    max-width: 300px;
+}
+#contact-form {
+    margin-top: 20xp;
+}

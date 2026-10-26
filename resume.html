@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<nav>
+    <a href="resume.html">Resume</a>   
+    <a href="cover-letter.html">Cover Letter</a> 
+    <a href="career-goals.html">Career Goals</a>
+</nav>    
+<header>
+    <h1>Louggin Seraphin</h1>
+    <p>Welcome to my portfolio website.<br>Thank you for visiting.</p>
+
+    <address>
+        <p>Email: <a href="mailto:lougginseraphin1980@yahoo.com">lougginseraphin1980</a></p>
+        <p>Phone: <a href="tel:+18632579563">863-257-9563</a></p>
+         <p>Davenport,FL</p>   
+        
+    </address>
+</header>
+    <main>
+    <section>
+    <h2>About Me</h2>
+    <p>I am a <span>stundent</span> learning  <em>web development</em>.</p>
+</section>
+<section>
+    <h2>My Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScrit</li>
+    </ul>
+    </section> 
+    <section>
+        <h2>Education</h2> 
+        <table>
+        <caption>Education History</caption>
+            <tr>
+                <th>School</th>
+                <th>Program</th>
+                <th>Status</th>
+                <th>Expected Graduation</th>
+            </tr>
+            <tr>
+                <td>Western Governors University</td>
+                <td>Software Engineering</td>
+                <td>Current stundent</td>
+                <td>Fall 2028</td>
+            </tr>
+                <tr>
+                <td>Western Governors University</td>
+                <td>Web development Foundations</td>
+                <td>In Progress</td>
+                <td>Not Applicable</td>
+                </tr>
+        </table>    
+    </section>
+<hr>
+    <section>
+    <h2>Work Experience</h2>
+<article>
+    <h3> Mondelez International</h3>
+    <p><strong>Warehouse Associate</strong> | 10 years</p>
+    <ul>
+        <li>Select and prepare cookie products for customer orders.</li>
+        <li>Organize Oreo, Chips Ahoy!, and other products onto pallets.</li>
+        <li>Load completed pallets onto delivery trucks.</li>
+        <li>Prepare shipments for stores including Walmart, Publix, and  Target.</li>
+     </ul>
+</article>    
+</section>     
+<section>
+    <h2>Career Objectives</h2>
+    <ol>
+        <li>Complete my software Engineering dergree</li>
+        <li>Develop strong HTML, CSS, and JavaScrit skills.</li>
+    </ol>
+</section>
+
+<div id="current-date"></div>
+</main>
+<footer>
+    <p>&copy; 2026 Louggin Seraphin</p>
+</footer>   
+<script>
+    document.getElementById("current-date").textContent = new Date () .toDateString();
+    console.log("Resume page loaded successfully.");
+</script>     
+</body>
+</html>
